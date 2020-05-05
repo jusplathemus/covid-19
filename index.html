@@ -84,14 +84,14 @@
 
 	<p>&quot;Az egyetlen dolog, amitől félni kell, az maga a félelem&quot; - ez egy hülye tanács volt.</p>
 
-	<p>Jó, ne halmozd fel a WC-papírt; de ha a döntéshozók félnek magától a félelemtől, akkor le fogják kicsinyelni a valódi veszélyeket, hogy elkerüljék a "tömeges pánik" kitörését. Nem magával a félelemmel van baj, hanem azzal, hogy mihez <em>kezdünk</em> a félelmünkkel. A félelem erőt ad, hogy megbirkózzunk a jelenlegi veszélyekkel, és felkészüljünk a későbbi veszélyekre.</p>
+	<p>Jó, ne halmozd fel a WC-papírt, de ha a döntéshozók félnek magától a félelemtől, akkor le fogják kicsinyelni a valódi veszélyeket, hogy elkerüljék a "tömeges pánik" kitörését. Nem magával a félelemmel van baj, hanem azzal, hogy mihez <em>kezdünk</em> vele. A félelem erőt ad, hogy megbirkózzunk a jelenlegi és felkészüljünk a jövőbeli veszélyekre.</p>
 
 	<p>Őszintén szólva, mi (Marcel, epidemiológus + Nicky, képek/kódolás) aggódunk. Lefogadjuk, hogy te is! Ezért a félelmünket mi arra használtuk fel, hogy elkészítsük ezeket a <strong>lejátszható szimulációkat</strong>, hogy aztán <em>te</em> megértést kovácsolhass a saját félelmedből:</p>
 
 	<ul>
-	<li><strong>Az előző hónapok</strong> (Alapszintű epidemiológia, SEIR modell, R és R<sub>0</sub>)</li>
-	<li><strong>A következő hónapok</strong> (karantén, kontakt-nyomkövetés, maszkok)</li>
-	<li><strong>A következő évek</strong> (immunitás? ellenszer?)</li>
+	<li><strong>Az előző hónapok</strong> (alap epidemiológia, SEIR modell, R és R<sub>0</sub>)</li>
+	<li><strong>A következő hónapok</strong> (karantén, nyomon követés, maszkok)</li>
+	<li><strong>A következő évek</strong> (immunitás? védőoltás?)</li>
 	</ul>
 
 	<p>Ezen ismertető (megjelent: 2020. május 1. Kattints erre a lábjegyzetre!→<sup id="fnref1"><a href="#fn1" rel="footnote">1</a></sup>) reményt <em>és</em> félelmet hivatott kelteni benned. A COVID-19 olyan módon való legyőzéséhez, hogy közben <strong>megóvjuk a szellemi egészségünket és a pénzügyi jólétünket is</strong>, a tervek kidolgozásához optimizmusra, a biztonsági tervek kidolgozásához pedig pesszimizmusra van szükségünk. Ahogy Gladys Bronwyn Stern mondta egyszer, <em>"A derűlátó feltalálja a repülőgépet, a borúlátó meg az ejtőernyőt."</em></p>
@@ -113,7 +113,7 @@
 
 	<p><img src="pics/spread.png" alt=""></p>
 
-	<p>Becslések szerint, egy COVID-19 kirobbanás *kezdetén*, a vírus *általában* egy <icon i></icon> emberről  4 naponta ragad át egy <icon s></icon> emberre <em>átlagosan</em>.<sup id="fnref2"><a href="#fn2" rel="footnote">2</a></sup> (Ne feledd, nagy az ingadozás.)</p>
+	<p>Becslések szerint, egy COVID-19 kirobbanás <em>kezdetén</em>, a vírus egy <icon i></icon> emberről <em>általában</em> 4 naponta ragad át egy <icon s></icon> emberre.<sup id="fnref2"><a href="#fn2" rel="footnote">2</a></sup> (Ne feledd, nagy az ingadozás.)</p>
 
 	<p>Mi történik, ha egy csupán 0,001% <icon i></icon> emberrel rendelkező lakosságon lefuttatjuk a szimulációt a "4 naponta megduplázódik" eshetőséggel <em>bármilyen más változó nélkül</em>? </p>
 
@@ -167,7 +167,7 @@
 	        <iframe src="sim?stage=epi-4" width="800" height="540"></iframe>
 	</div>
 
-	<p>És <em>innen</em> származik az a híres görbe! Ez nem egy haranggörbe, de még nem is egy "log-normális" görbe. Nincs elnevezése. De már sokszor találkoztál vele és kérted, hogy laposodjon el.</p>
+	<p>És <em>innen</em> származik az a híres görbe! Ez nem egy haranggörbe, de még nem is egy "log-normális" görbe. Nincs elnevezése. De már sokszor találkoztál vele és remélted, hogy ellaposodik.</p>
 
 	<p>Ez az <strong>SIR Modell</strong>,<sup id="fnref5"><a href="#fn5" rel="footnote">5</a></sup><br>
 	(<icon s></icon><strong>S</strong>usceptible (Fogékony) <icon i></icon><strong>I</strong>nfectious (Fertőző) <icon r></icon><strong>R</strong>ecovered (Meggyógyult) )<br>
@@ -192,7 +192,7 @@
 	        <iframe src="sim?stage=epi-5" width="800" height="540"></iframe>
 	</div>
 
-	<p>Nincs nagy változás! A <icon e></icon> lappangó állapot időtartama megváltoztatja a <icon e></icon> és <icon i></icon> emberek arányát, és hogy <em>mikor</em> éri el a csúcsot az aktuális esetek száma... de, hogy <em>mekkora</em> ez a csúcs, valamint az összes esetek száma végül változatlan marad.</p>
+	<p>Nincs nagy változás! A <icon e></icon> lappangó állapot időtartama megváltoztatja a <icon e></icon> és <icon i></icon> emberek arányát, és hogy <em>mikor</em> éri el a csúcsot az aktuális esetek száma... de, a csúcs <em>magassága</em>, valamint az összes esetek száma végül változatlan marad.</p>
 
 	<p>Miért? Az "Alapszintű epidemiológia" <em>első</em> legfontosabb fogalma miatt:</p>
 
@@ -234,7 +234,7 @@
 	        <iframe src="sim?stage=epi-7" width="800" height="540"></iframe>
 	</div>
 
-	<p><strong>MEGJEGYZÉS: Az összes esetek száma <em>nem áll meg</em> a nyájimmunitás küszöbénél, hanem túllépi azt!</strong> <em>Pontosan</em> akkor lépi át a küszöbét, amikor a csúcsra ér az aktuális esetek száma. (Akárhogy változtatod a beállításokat, mindig így történik - próbáld csak ki!)</p>
+	<p><strong>MEGJEGYZÉS: Az összes eset száma <em>nem áll meg</em> a nyájimmunitás küszöbénél, hanem túllépi azt!</strong> <em>Pontosan</em> akkor lépi át a küszöbét, amikor a csúcsra ér az aktuális esetek száma. (Akárhogy változtatod a beállításokat, mindig így történik - próbáld csak ki!)</p>
 
 	<p>Ez azért van, mert amikor több a nem <icon s></icon> ember, mint a nyájimmunitás küszöbe, akkor az R &lt; 1. Amikor pedig az R &lt; 1, nincsenek új esetek: az aktuális esetek száma elérte a csúcsot.</p>
 
@@ -269,7 +269,7 @@
 
 	<h3 id="toc_0">0. eset: Egyáltalán nem csinálunk semmit</h3>
 
-	<p>20 db COVID-19-cel fertőzött emberből körülbelül 1 db intenzív osztályra kerül.<sup id="fnref13"><a href="#fn13" rel="footnote">13</a></sup> Egy gazdag országban, mint az Egyesült Államokban, 1 ágy jut az intenzív osztályokon 3400 emberre.<sup id="fnref14"><a href="#fn14" rel="footnote">14</a></sup> Vagyis, az Egyesült Államok 20 embert tud ellátni a 3400 <em>egyidőben</em> fertőzött emberből; vagyis, a népesség 0,6%-át.</p>
+	<p>20 db COVID-19-cel fertőzött emberből körülbelül 1 db intenzív osztályra kerül.<sup id="fnref13"><a href="#fn13" rel="footnote">13</a></sup> Egy gazdag országban, mint az Egyesült Államokban, 1 ágy jut az intenzív osztályokon 3400 emberre.<sup id="fnref14"><a href="#fn14" rel="footnote">14</a></sup> Vagyis, az Egyesült Államok 20 embert tud ellátni 3400 <em>egyidőben</em> fertőzött emberből; vagyis, a népesség 0,6%-át.</p>
 
 	<p>Még ha <em>több mint megháromszorozzuk is</em> ezt a kapacitást, hogy elérje a 2%-ot, ez történt volna, <em>ha semmit nem teszünk:</em></p>
 
@@ -280,15 +280,15 @@
 	<p>Nem valami szép.</p>
 
 	<p>Ez áll <a href="http://www.imperial.ac.uk/mrc-global-infectious-disease-analysis/covid-19/report-9-impact-of-npis-on-covid-19/">az Imperial College március 16-i jelentésében</a>: ha nem teszünk semmit, megtelnek az intenzív osztályok és a lakosság több mint 80%-a megfertőződik. 
-	(ne feledd: az összes eset száma <em>túllépi</em> a nyájimmunitás küszöbét)</p>
+	(Ne feledd: az összes eset száma <em>túllépi</em> a nyájimmunitás küszöbét.)</p>
 
-	<p>Még ha csak a fertőzöttek 0,5%-a hal is meg - ami nem túlzás, tekintve, hogy tele vannak az intenzív osztályok - egy olyan nagy országban, mint az Egyesült Államok, a 300 millió lakos 80%-ának a 0,5%-a az így is 1,2 millió halott... <em>HA nem teszünk semmit.</em></p>
+	<p>Még ha csak a fertőzöttek 0,5%-a hal is meg - ami nem túlzás, tekintve, hogy tele vannak az intenzív osztályok - egy olyan nagy országban, mint az Egyesült Államok, ez így is 1,2 millió halottat jelent (a 300 millió lakos 80%-ának a 0,5%-a)... <em>HA nem teszünk semmit.</em></p>
 
-	<p>(Sok híradó és közösségi mádia jelentette azt, hogy az emberek "80%-a megfertőződik" <em>anélkül</em>, hogy hozzátették volna: "HA NEM TESZÜNK SEMMIT". A félelmet a nézettség növelésére használták fel, nem pedig a megértés terjesztésére. <em>Sóhaj.</em>)</p>
+	<p>(Sok sajtóorgánum és közösségi mádia jelentette azt, hogy az emberek "80%-a megfertőződik", <em>anélkül</em>, hogy hozzátették volna: "HA NEM TESZÜNK SEMMIT". A félelmet a saját népszerűségük növelésére használták fel, nem pedig a megértés terjesztésére. <em>Sóhaj.</em>)</p>
 
 	<h3 id="toc_1">1. eset: A görbe ellaposítása / Nyájimmunitás</h3>
 
-	<p>A "görbe ellaposítása" tervet javasolta az összes közegészségügyi szervezet, míg az Egyesült Királyság eredeti "nyájimmunitás" tervét univerzálisan leszólták. Ezek <em>ugyanazok a tervek</em> voltak. Az Egyesült Királyság csak rosszul kommunikálta az övét.<sup id="fnref15"><a href="#fn15" rel="footnote">15</a></sup></p>
+	<p>Az összes közegészségügyi szervezet a "görbe ellaposítása" tervet javasolta, az Egyesült Királyság eredeti "nyájimmunitás" tervét pedig univerzálisan leszólták. Ezek <em>ugyanazok a tervek</em> voltak. Az Egyesült Királyság csak rosszul kommunikálta az övét.<sup id="fnref15"><a href="#fn15" rel="footnote">15</a></sup></p>
 
 	<p>De mindkét tervben volt egy szó szerint végzetes hiba.</p>
 
@@ -350,9 +350,9 @@
 
 	<p>Ez az intenzív osztályok kapacitása alatt <em>tartaná</em> az esetek számát! És <em>sokkal</em> jobb, mint egy 18 hónapos karantén, míg elérhető nem lesz az oltóanyag. Annyit kell tennünk, hogy... bezárkózunk pár hónapra, kimozdulunk pár hónapra, ezt ismételgetve az oltóanyag kibocsájtásáig. (Ha pedig nincs oltóanyag, akkor a nyájimmunitás eléréséig, ami... 2022-ben lesz.)</p>
 
-	<p>Nézd, meghúzhatunk egy "intenzív osztály kapacitása" vonalat, de sok fontos dolgot <em>nem tudunk</em> szimulálni. Például:</p>
+	<p>Nézd, meghúzhatunk egy "intenzív osztályok kapacitása" vonalat, de sok fontos dolgot <em>nem tudunk</em> szimulálni. Például:</p>
 
-	<p><strong>Szellemi egészség:</strong> A magány a depresszió, a szorongás és az öngyilkosság egyik legnagyobb kiváltó kockázati tényezője. És ugyanannyi eséllyel vezethet korai halálhoz, mint a napi 15 cigaretta elszívása.<sup id="fnref20"><a href="#fn20" rel="footnote">20</a></sup></p>
+	<p><strong>Szellemi egészség:</strong> A magány a depresszió, a szorongás és az öngyilkosság egyik legnagyobb kiváltó kockázati tényezője. És ugyanannyi eséllyel vezethet korai halálhoz, mint a napi 15 szál cigaretta elszívása.<sup id="fnref20"><a href="#fn20" rel="footnote">20</a></sup></p>
 
 	<p><strong>Pénzügyi jólét:</strong> Ha felteszed a "Mi lesz a gazdasággal?" kérdést, úgy néznek rád, mintha jobban érdekelne a pénz mint az emberélet. De "a gazdaság" nem csak részvényről szól, hanem az emberek képességéről, hogy élelmet és otthont biztosítsanak a szeretteiknek, hogy befektessenek a gyermekeik jövőjébe és élvezzék a művészetet, ételeket, videójátékokat stb.; azokat a dolgokat, amik értelmet adnak az életnek. Különben is, <em>maga a szegénység</em> is szörnyű hatással van a szellemi és fizikai egészségre.</p>
 
@@ -392,7 +392,7 @@
 
 	<p>Várjunk, egy alkalmazás, ami nyomon követi, kivel léptél kontaktba?... Ez azt jelenti, hogy bele fog látni a magánéletünkbe, mint a Big Brother?</p>
 
-	<p>Szó sincs róla! <strong><a href="https://github.com/DP-3T/documents#decentralized-privacy-preserving-proximity-tracing">DP-3T</a></strong>. Epidemiológusok és kriptográfusok egy csapata (köztük van egyikünk, Marcel Salathé is) <em>már</em> egy kontakt-nyomkövető alkalmazáson dolgozik - aminek a forráskódja nyíltan elérhető lesz - és <strong>semmit nem árul el a kilétedről, pozíciódról, sem pedig arról, hogy kikkel, vagy hogy <em>mennyi emberrel léptél kontaktba</em>.</strong></p>
+	<p>Szó sincs róla! Epidemiológusok és kriptográfusok egy csapata (köztük van egyikünk, Marcel Salathé) <em>már</em> dolgozik egy <strong><a href="https://github.com/DP-3T/documents#decentralized-privacy-preserving-proximity-tracing">DP-3T</a></strong> nevű, kontakt-nyomkövető alkalmazáson. A forráskódja nyíltan elérhető lesz és <strong>semmit nem árul el a kilétedről, pozíciódról, sem pedig arról, hogy kikkel, vagy hogy <em>mennyi emberrel léptél kontaktba</em>.</strong></p>
 
 	<p>Így működik:</p>
 
@@ -404,7 +404,7 @@
 
 	<p>De mi van azokkal, akiknek nincsen okostelefonjuk? Vagy a kilincs útján terjedő fertőzéssel? Vagy a "valóban" tünetmentes esetekkel? A kontakt-nyomkövető alkalmazások nem tudják az összes fertőzést megelőzni... <em>és ezzel nincs is baj!</em> Nem kell megelőznünk <em>az összes</em> fertőzést, elég a 60% feletti érték ahhoz, hogy az R &lt; 1-et elérjük.</p>
 
-	<p>(Megjegyzés a tünet előtti és valóban tünetmentes eset különbségéről. A "valóban" tünetmentes eset ritka:<sup id="fnref27"><a href="#fn27" rel="footnote">27</a></sup>)</p>
+	<p>(Megjegyzés a tünet előtti és valóban tünetmentes eset különbségéről; a "valóban" tünetmentes eset ritka:<sup id="fnref27"><a href="#fn27" rel="footnote">27</a></sup>)</p>
 
 	<p>A <em>tünetes</em> esetek elszigetelése akár 40%-kal, a <em>tünet előtti/tünetmentes</em> kontaktjaik karanténba vonulása pedig akár 50%-kal csökkentené az R értékét<sup id="fnref28"><a href="#fn28" rel="footnote">28</a></sup>:</p>
 
@@ -475,7 +475,7 @@
 
 	<p>(További érvelések a maszkok mellett/ellen:<sup id="fnref34"><a href="#fn34" rel="footnote">34</a></sup>)</p>
 
-	<p>A maszkok <em>önmagukban</em> nem fogják elhozni az R &lt; 1-et. De ha a kézmosás és a "Tesztelés, nyomon követés, elszigetelés" csak R = 1,10-ig juttat el minket, akkor, ha az emberek csupán 1/3-a maszkok viselne, máris átbillentené az R értékét 1 alá, így meg lenne fékezve a vírus!</p>
+	<p>A maszkok <em>önmagukban</em> nem fogják elhozni az R &lt; 1-et. De ha a kézmosás és a "Tesztelés, nyomon követés, elszigetelés" csak R = 1,10-ig juttat el minket, akkor, ha az emberek csupán 1/3-a maszkot viselne, máris átbillentené az R értékét 1 alá, így meg lenne fékezve a vírus!</p>
 
 	<p><strong>Nyár:</strong></p>
 
@@ -498,7 +498,7 @@
 	<p>Itt egy szimuláció, egy "lusta ügy" esete:</p>
 
 	<ol>
-	<li>Karantén, majd</li>
+	<li>Karantén, majd...</li>
 	<li>Egy mérsékelt szintű higiénia és "Tesztelés, nyomon követés, elszigetelés", egy kis "Maszkot mindenkinek" dologgal megfűszerezve, majd...</li>
 	<li>Még egy "megszakító" karantén, mielőtt megtalálják az oltóanyagot.</li>
 	</ol>
@@ -604,7 +604,7 @@
 
 	<p>2) Csináljuk az R &lt; 1 közbeavatkozásokat, örökké. Egyszerűen mindennapivá válik a kontakt-nyomkövetés és a maszkviselés  a COVID-19 megjelenése utáni viágban, ahogy az STI tesztek és az óvszer viselése megszokássá vált a HIV megjelenése utáni világban.</p>
 
-	<p>3) Csináljuk az R &lt; 1 közbeavatkozásokat, amíg ki nem fejlesztünk olyan kezeléseket, amiknek köszönhetően a COVID-19-es esetek sokkal, sokkal kisebb eséllyel szorulnak kritikus ellátásra. (<em>Most is</em> ezt kellene tennünk!) Tizedjére csökkenteni az intenzív osztályok kihasználtságát ugyanaz, mintha tízszeresére növelnénk az intenzív osztályok kapacitását:</p>
+	<p>3) Csináljuk az R &lt; 1 közbeavatkozásokat, amíg ki nem fejlesztünk olyan kezeléseket, amiknek köszönhetően a COVID-19-es esetek sokkal, sokkal kisebb eséllyel szorulnak kritikus ellátásra. (<em>Most is</em> ezt kellene tennünk!) Tizedjére csökkenteni az intenzív osztályok kihasználtságát ugyanaz, mintha tízszeresére növelnénk az intenzív osztályok kapacitását.</p>
 
 	<p><strong>Itt egy szimuláció, amiben <em>nincs</em> megmaradó immunitás, <em>nincs</em> oltóanyag, de még csak közbeavatkozások sincsenek; csak fokozatosan növeljük a kapacitást, hogy túléljük a hosszútávú kiugrásokat:</strong></p>
 
@@ -645,11 +645,11 @@
 
 	<p>Szóval, mit jelent ez most SZÁMODRA?</p>
 
-	<p><strong>Mindenki:</strong> Tartsátok tiszteletben a karantént, hogy minél hamarabb túljuthassunk az első Fázison. Mossatok kezet. Készítsetek saját maszkokat. Töltsétek le az <em>adatvédelmet tisztelő</em> kontakt-nyomkövető alkalmazást, amint elérhetővé válik a következő hónapban. Őrizzétek egészségetek, mind fizikailag, mind szellemileg! És írjatok a helyi döntéshozóitoknak, hogy emeljék fel a valagukat és...</p>
+	<p><strong>Mindenki:</strong> Tartsátok tiszteletben a kijárási korlátozást, hogy minél hamarabb túljuthassunk az első Fázison. Mossatok kezet. Készítsetek saját maszkokat. Töltsétek le az <em>adatvédelmet tisztelő</em> kontakt-nyomkövető alkalmazást, amint elérhetővé válik a következő hónapban. Őrizzétek egészségetek, mind fizikailag, mind szellemileg! És írjatok a helyi döntéshozóitoknak, hogy emeljék fel a valagukat és...</p>
 
 	<p><strong>Döntéshozók:</strong> Hozzatok olyan törvényeket, amik támogatják azokat, akiknek el kell szigetelődniük. Vegyetek fel több kézi kontakt-nyomkövetőt, akiket <em>segítenek</em> az adatvédelmet tisztelő kontakt-nyomkövető alkalmazások. Fordítsatok több forrást azokra a dolgokra, amikből hiányunk van, például...</p>
 
-	<p><strong>Alkotók:</strong> Alkossatok teszteket. Készítsetek ventilátorokat. Készítsetek személyes védőfelszerelést a kórházaknak. Alkossatok teszteket. Készítsetek maszkokat. Készítsetek alkalmazásokat. Hozzatok létre vírusölő, betegséget megelőző szert, és egyéb kezeléseket amik nem oltóanyagok. Készítsetek oltóanyagokat. Alkossatok teszteket. Alkossatok teszteket. Alkossatok teszteket. Adjatok reményt.</p>
+	<p><strong>Alkotók:</strong> Alkossatok teszteket. Készítsetek ventilátorokat. Készítsetek személyes védőfelszerelést a kórházaknak. Alkossatok teszteket. Készítsetek maszkokat. Készítsetek alkalmazásokat. Hozzatok létre vírusölő, betegséget megelőző szert és egyéb kezeléseket, amik nem oltóanyagok. Készítsetek oltóanyagokat. Alkossatok teszteket. Alkossatok teszteket. Alkossatok teszteket. Adjatok reményt.</p>
 
 	<p>Ne kicsinyeljétek le a félelmet a remény érdekében. A félelmünknek <em>össze kell dolgoznia</em> a reményünkkel, mint a repülőgépek és az ejtőernyők feltalálóinak. A szörnyű eshetőségekre felkészülve <em>alkotunk meg</em> egy reményteljes jövőt.</p>
 
